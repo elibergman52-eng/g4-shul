@@ -54,7 +54,7 @@ export default function TopNav({ active }: { active: string }) {
 
         <div style={{ display: 'flex', gap: 8 }}>
           <button className="ds-btn-primary" style={{ padding: '8px 14px' }}>
-            Get the weekly email <ArrowRight size={14} />
+            Donate <ArrowRight size={14} />
           </button>
         </div>
       </div>
