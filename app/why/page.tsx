@@ -20,7 +20,7 @@ function Stat({ n, l }: { n: string; l: string }) {
 
 function OriginPoster() {
   return (
-    <div style={{
+    <div className="g4-origin-poster" style={{
       background: 'var(--ds-surface-1)', borderRadius: 'var(--ds-radius-xl)',
       overflow: 'hidden', position: 'relative', boxShadow: 'var(--ds-elev-2)',
       display: 'grid', gridTemplateColumns: '1fr 1.4fr', minHeight: 560,
@@ -46,7 +46,7 @@ function OriginPoster() {
         </svg>
       </PhotoTile>
 
-      <div style={{ padding: 50, display: 'flex', flexDirection: 'column' }}>
+      <div className="g4-origin-panel" style={{ padding: 50, display: 'flex', flexDirection: 'column' }}>
         <div className="ds-eyebrow">Origin</div>
         <h2 className="ds-display-xl" style={{
           fontSize: 'clamp(40px, 5vw, 68px)', letterSpacing: '-3.2px',
@@ -54,7 +54,7 @@ function OriginPoster() {
         }}>
           Four guys.<br/>A back room.<br/>A kettle.
         </h2>
-        <div style={{ marginTop: 28, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, color: 'var(--ds-ink-muted)' }}>
+        <div className="g4-2col" style={{ marginTop: 28, display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20, color: 'var(--ds-ink-muted)' }}>
           <p className="ds-body" style={{ lineHeight: 1.55 }}>
             In the winter of 2018, four friends started learning chassidus in the back room
             of an apartment on East 14th. There was no plan to start a shul. There was a

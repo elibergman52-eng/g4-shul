@@ -45,7 +45,7 @@ function ZmanimPoster() {
         <span className="ds-caption" style={{ marginLeft: 'auto', color: 'var(--ds-ink-muted)' }}>this week — 18 → 24 kislev</span>
       </div>
 
-      <div style={{
+      <div className="g4-poster-inner" style={{
         padding: '40px 50px 50px', display: 'grid', gridTemplateColumns: '1fr 1fr',
         gap: 60, height: 'calc(100% - 45px)',
       }}>

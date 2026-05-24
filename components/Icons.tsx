@@ -28,3 +28,5 @@ export const Play = (p: IconProps) => <Icon {...p} d={<><path d="M6 4l14 8-14 8z
 export const Mic = (p: IconProps) => <Icon {...p} d={<><rect x="9" y="3" width="6" height="12" rx="3"/><path d="M5 11a7 7 0 0 0 14 0"/><path d="M12 18v3"/></>} />
 export const Pin = (p: IconProps) => <Icon {...p} d={<><path d="M21 11.5a8.5 8.5 0 1 1-17 0c0-4 3-7.5 8.5-9 5.5 1.5 8.5 5 8.5 9z"/><circle cx="12" cy="11" r="3"/></>} />
 export const Dot = (p: IconProps) => <Icon {...p} d={<><circle cx="12" cy="12" r="2.5" fill="currentColor"/></>} />
+export const Menu = (p: IconProps) => <Icon {...p} d={<><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></>} />
+export const X = (p: IconProps) => <Icon {...p} d={<><path d="M18 6 6 18"/><path d="M6 6l12 12"/></>} />

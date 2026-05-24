@@ -10,7 +10,7 @@ const cols = [
 export default function Footer() {
   return (
     <footer style={{ borderTop: '1px solid var(--ds-hairline-soft)', paddingTop: 64 }}>
-      <div className="ds-container" style={{
+      <div className="ds-container g4-footer-grid" style={{
         display: 'grid', gridTemplateColumns: '1.4fr 1fr 1fr 1fr', gap: 32,
       }}>
         <div>

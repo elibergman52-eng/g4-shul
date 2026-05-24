@@ -37,7 +37,7 @@ function FeatureCard({ visual, title, meta, link, linkHref = '#' }: Card) {
 export default function CardPair({ cards }: { cards: Card[] }) {
   return (
     <section className="ds-container" style={{ paddingBottom: 100 }}>
-      <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
+      <div className="g4-2col" style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 20 }}>
         {cards.map((c, i) => <FeatureCard key={i} {...c} />)}
       </div>
     </section>
